@@ -1,6 +1,7 @@
 # yugioh_card_app
 
 A new Flutter project.
+In compliance with SDEV173P-1 Module 3 Exam
 
 ## Getting Started
 
