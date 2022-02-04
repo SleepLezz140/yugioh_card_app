@@ -14,6 +14,7 @@ class DetailApp extends StatefulWidget{
   }
 }
 
+
 class _DetailAppState extends State<DetailApp>{
 
   final YugiohCard data;
@@ -28,8 +29,8 @@ class _DetailAppState extends State<DetailApp>{
         // ignore: deprecated_member_use
         scaffoldKey.currentState.showSnackBar(
             SnackBar(
-              content: Text(data.name),
-              duration: Duration(seconds: 1),
+              content:Text(data.name),
+              duration:Duration(seconds: 1),
             )
         )
     );
