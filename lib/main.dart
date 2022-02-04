@@ -51,6 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
         actions: <Widget>[
           PopupMenuButton<int>(
+            icon: const Icon(Icons.more_horiz_rounded,
+            color: Colors.black87),
             itemBuilder: (context) => [
               PopupMenuItem<int>(
                 child: Text('Exit'),
