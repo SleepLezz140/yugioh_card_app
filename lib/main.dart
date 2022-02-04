@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.orange,
       ),
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(title: 'Top 150 Cards'),
+      home: MyHomePage(title: '150 Yugioh Cards'),
     );
   }
 }
